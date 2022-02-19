@@ -1,0 +1,35 @@
+alias: turn_off_switch_1
+sequence:
+  - type: turn_off
+    device_id: <YOUR DEVICE ID>
+    entity_id: switch.switch_1
+    domain: switch
+mode: single
+icon: mdi:toggle-switch-off
+
+alias: turn_off_switch_2
+sequence:
+  - type: turn_off
+    device_id: <YOUR DEVICE ID>
+    entity_id: switch.switch_2
+    domain: switch
+mode: single
+icon: mdi:toggle-switch-off
+
+alias: turn_on_switch_1
+sequence:
+  - type: turn_off
+    device_id: <YOUR DEVICE ID>
+    entity_id: switch.switch_1
+    domain: switch
+mode: single
+icon: mdi:toggle-switch-on
+
+alias: turn_on_switch_2
+sequence:
+  - type: turn_off
+    device_id: <YOUR DEVICE ID>
+    entity_id: switch.switch_2
+    domain: switch
+mode: single
+icon: mdi:toggle-switch-on
