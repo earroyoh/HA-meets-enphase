@@ -23,7 +23,7 @@ sequence:
     entity_id: switch.switch_1
     domain: switch
 mode: single
-icon: mdi:toggle-switch-on
+icon: mdi:toggle-switch
 
 alias: turn_on_switch_2
 sequence:
@@ -32,4 +32,4 @@ sequence:
     entity_id: switch.switch_2
     domain: switch
 mode: single
-icon: mdi:toggle-switch-on
+icon: mdi:toggle-switch
