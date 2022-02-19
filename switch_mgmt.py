@@ -6,7 +6,7 @@ import logging, warnings
 FORMAT = '%(asctime)s %(message)s'
 logging.basicConfig(level="INFO", format=FORMAT)
 #warnings.filterwarnings('ignore')
-logger = logging.getLogger("eco-smart")
+logger = logging.getLogger("switch_mgmt")
 
 HA_states_url = "http://<HOST IP ADDRESS>:8123/api/states/"
 HA_script_url = "http://<HOST IP ADDRESS>:8123/api/services/script/"
